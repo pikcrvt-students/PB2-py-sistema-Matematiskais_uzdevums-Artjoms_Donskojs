@@ -1,2 +1,2 @@
-# PB2-py-sistema-Matematiskais_uzdevums-Artjoms_Donskojs
+# Programma, kas palīdz matemātikas skolotājai pārbaudīt skolēnu zināšānas par tēmu Saīsināto reizināšanas formulas.
 Matematiskais uzdevums
