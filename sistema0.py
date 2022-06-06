@@ -17,7 +17,7 @@ print()
 def teorija():
     print()
     print()
-    teorija=print("Izteiksmi sadalīt reizinātājos, jeb izveidot iekavas, var ar dažādiem paņēmieniem.\nKopīgā reizinātāja iznešana pirms iekavām. Lieto, ja visi izteiksmes locekļi satur vienu un to pašu reizinātāju.\nPiemērs:3x'-7x2=x(3-7x) \n8y3+6y2=y2(8y+6)vai2y2(4y+3) \nSaīsināto reizināšanas formulu lietošana\nKvadrātu starpība: a2-b2=(a-b)(a+b)\nBinoma summas kvadrāts: a2+2ab+b2=(a+b)2=(a+b)(a+b)\nBinoma starpības kvadrāts: a2-2ab+b2-b)2-b-b)\nPiemērs-12x+9=(2x-2⋅2⋅3x+32-3)2-3-3-4x2-(2x)2-2x)(z+2x-n4=(v2-(n2)2-n2)(v2+n2)")
+    teorija=print("Izteiksmi sadalīt reizinātājos, jeb izveidot iekavas, var ar dažādiem paņēmieniem.\nKopīgā reizinātāja iznešana pirms iekavām. Lieto, ja visi izteiksmes locekļi satur vienu un to pašu reizinātāju.\nPiemērs:3x^2-7x^2=x(3-7x) \n8y^3+6y^2=y^2(8y+6) vai 2y^2(4y+3) \nSaīsināto reizināšanas formulu lietošana\nKvadrātu starpība: a^2-b^2=(a-b)(a+b)\nBinoma summas kvadrāts: a^2+2ab+b^2=(a+b)2=(a+b)(a+b)\nBinoma starpības kvadrāts: a^2-2ab+b^2-b)2-b-b)\nPiemērs-12x+9=(2x-2⋅2⋅3x+32-3)2-3-3-4x2-(2x)^2-2x)(z+2x-n^4=(v^2-(n^2)2-n^2)(v^2+n^2)")
     izvele()
 
 def piemeri():
