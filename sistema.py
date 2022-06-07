@@ -51,8 +51,14 @@ def parbaudes_darbs():
 
 #Definējam close funkciju
 def close():
-    while close():
-        break
+    exit()
+
+#Definējam error funkciju
+def error():
+    print("Nepareiza ievade!!!\n\nKļuda!!!")
+    print()
+    print()
+    izvele()
 
 #Definējam izveles funkciju
 def izvele():
@@ -64,12 +70,14 @@ def izvele():
         piemeri()
         print()
         print()
-    if izvele == "a": #Ja 'a', tad beidzam programmu
+    if izvele == "a": #Ja 'a', tad izvadam parbaudes darbu
         parbaudes_darbs()
         print()
         print()
+    if izvele == "b": #Ja 'b', tad beidzam programmu
+        close()
+        print()
+        print()
     else:
-        print("Nepareiza ievade!!!\n\nKļuda!!!")
-        print()
-        print()
+        error()
 izvele() #Izvadam izveles funkciju, lai lietotājs vārētu izvēlēties nākamo dārbību
