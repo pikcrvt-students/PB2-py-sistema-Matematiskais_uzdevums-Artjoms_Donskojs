@@ -68,4 +68,8 @@ def izvele():
         parbaudes_darbs()
         print()
         print()
+    else:
+        print("Nepareiza ievade!!!\n\nKļuda!!!")
+        print()
+        print()
 izvele() #Izvadam izveles funkciju, lai lietotājs vārētu izvēlēties nākamo dārbību
