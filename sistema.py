@@ -5,6 +5,8 @@ Matematiskais uzdevums
 '''
 
 from time import sleep
+import doctest
+
 
 #Izvadam tekstu
 print("Matematiskais uzdevums")
@@ -49,7 +51,23 @@ def piemeri():
 
 #Definējam parbaudes darbu funkciju
 def parbaudes_darbs():
-    print("Vēl nav gatavs!!!")
+    atzime = 0
+    print("Parbaudes darbs.")
+    sleep(1)
+    print("Parbaudes darba piemēri:")
+    sleep(1)
+    parbaudes_darba_piemeri=['(k+20)^2-9','(t+16)^2-25','(m+18)^2-36','(d+14)^2-16','(n+11)^2-49','(c+14)^2-4','(n+14)^2-81','(t+15)^2-9','(k+18)^2-16','(k+17)^2-81']
+    parbaudes_darba_atbildes=['(k+17)(k+23)','(t+11)(t+21)','(m+12)(m+24)','(d+10)(d+18)','(n+4)(n+18)','(c+12)(c+16)','(n+5)(n+23)','(t+12)(t+18)','(k+14)(k+22)','(k+8)(k+26)']
+    for i in range(0,10):
+        print(parbaudes_darba_piemeri[i])
+        parb_atbilde = input("Ievadiet atbildi:")
+        if parb_atbilde == parbaudes_darba_atbildes[i]:
+            print("Pareiza atbilde!")
+            atzime = atzime + 1
+        else:
+            print("Nepareiza atbilde!")
+        print(f"Jūs atbildējat pareizi uz {atzime} piemēriem no 10.")
+    print(f'Jūsu vērtejums par parbaudes darbu ir {atzime}')
     print()
     print()
     izvele() #Izvadam izveles funkciju, lai lietotājs vārētu izvēlēties nākamo dārbību
@@ -64,6 +82,7 @@ def error():
     print()
     print()
     izvele()
+
 
 #Definējam izveles funkciju
 def izvele():
