@@ -17,7 +17,7 @@ print()
 print("Es vēlos pārbaudīt grupas DP1-2 zināšānas par sadalīšānu reizinātājos tēmu")
 sleep(1)
 print()
-print("Tas ir programmas 1. versija")
+print("Tas ir programmas 2. versija")
 sleep(1)
 print()
 
@@ -82,6 +82,20 @@ def error():
     print()
     print()
     izvele()
+
+
+def numbers_sum(n):
+    '''
+   This function returns the sum of all the argumets
+   Shell commands for testing
+   incoking the function followed by expected output:
+   >>> numbers_sum(1, 2, 3, 4, 5)
+   15
+   >>> numbers_sum(6, 7, 8)
+   21
+    '''
+    return sum(n)
+doctest.testmod(name='numbers_sum', verbose=True)
 
 
 #Definējam izveles funkciju
