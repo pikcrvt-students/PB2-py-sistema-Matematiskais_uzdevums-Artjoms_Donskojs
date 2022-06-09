@@ -6,7 +6,7 @@
 #
 #
 # Uzdevuma apraksts
->Skolotāja Jūrāte Būšiene vēlos pārbaudīt grupas DP1-2 zināšānas par sadalīšānu reizinātājos tēmu.
+>Matemātikas skolotāja vēlos pārbaudīt grupas DP1-2 zināšānas par sadalīšānu reizinātājos tēmu.
 Bet viņai nepieciešāma programma, lai pārbaudīt visu audzēkņu zināšānas.
 # Darbibas princips
 
