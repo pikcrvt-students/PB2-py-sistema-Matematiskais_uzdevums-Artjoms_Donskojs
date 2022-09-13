@@ -83,20 +83,20 @@ def error():
     print()
     izvele()
 
-
+'''
 def numbers_sum(n):
-    '''
-   This function returns the sum of all the argumets
-   Shell commands for testing
-   incoking the function followed by expected output:
-   >>> numbers_sum(1, 2, 3, 4, 5)
-   15
-   >>> numbers_sum(6, 7, 8)
-   21
-    '''
+    
+   #This function returns the sum of all the argumets
+   #Shell commands for testing
+   #incoking the function followed by expected output:
+   #>>> numbers_sum(1, 2, 3, 4, 5)
+   #15
+   #>>> numbers_sum(6, 7, 8)
+   #21
+    
     return sum(n)
 doctest.testmod(name='numbers_sum', verbose=True)
-
+'''
 
 #Definējam izveles funkciju
 def izvele():
